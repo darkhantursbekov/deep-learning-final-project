@@ -15,3 +15,9 @@ src Source Code for models
 models Trained models
 reports Reports
 requirements.txt Project Requirements
+
+Progress
+Week 1: Data loading, EDA, proposal 
+Week 2: Baseline MLP (88.44% accuracy) 
+Week 3: CNN (planned)
+Week 4: Final report (planned)
