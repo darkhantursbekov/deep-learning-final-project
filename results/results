@@ -1,1 +1,4 @@
-
+Model: MLP Baseline
+Accuracy: 88.44%
+Macro F1: 0.8832
+Top confusions: Shirt: T-shirt/top (103), Pullover:Coat (102)
