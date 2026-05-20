@@ -1,23 +1,31 @@
-Image Classification Using Fashion-MNIST Dataset
-Project Description
+# Fashion-MNIST Image Classification
 
-The objective is to use the Fashion-MNIST dataset containing grayscale pictures of clothing articles to classify them into one of the 10 classes based on two neural network models: MLP Baseline Model and CNN
+## Project Overview
+Classify grayscale images of clothing items from Fashion-MNIST into 10 categories using MLP and CNN.
 
-Dataset Details
-Origin Fashion-MNIST from Kaggle
-Size Training data - 60000 Test data - 10000
-Format Grayscale pixel values (28*28) in CSV format
-Categories T-shirt/top Trouser Pullover Dress Coat Sandal Shirt Sneaker Bag Boot
-Project Structure
-data Folder for raw and preprocessed data
-notebooks Google Colab Notebooks
-src Source Code for models
-models Trained models
-reports Reports
-requirements.txt Project Requirements
+## Results
 
-Progress
-Week 1: Data loading, EDA, proposal 
-Week 2: Baseline MLP (88.44% accuracy) 
-Week 3: CNN (planned)
-Week 4: Final report (planned)
+| Model | Accuracy | F1-Score |
+|-------|----------|----------|
+| MLP Baseline | 88.44% | 0.8832 |
+| CNN | **92.98%** | **0.9298** |
+
+## Dataset
+- 60,000 train, 10,000 test images
+- 28×28 grayscale, 10 classes
+
+## How to Run
+1. `pip install -r requirements.txt`
+2. Run notebooks in `notebooks/` folder
+
+## Repository Structure
+- `notebooks/` – Jupyter/Colab notebooks
+- `reports/` – weekly progress reports
+- `results/` – plots and metrics
+- `src/` – source code (optional)
+
+## Progress
+- Week 1: Data loading, EDA, proposal 
+- Week 2: Baseline MLP (88.44%) 
+- Week 3: CNN (92.98%) 
+- Week 4: Final report and presentation 
